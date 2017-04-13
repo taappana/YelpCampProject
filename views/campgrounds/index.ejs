@@ -1,4 +1,4 @@
-<% include partials/header %>
+<% include ../partials/header %> 
  <div class="container">
      <header class="jumbotron">
          <div class="container">
@@ -19,7 +19,7 @@
                        <h4><%= campground.name %></h4>
                    </div>
                    <p>
-                       <a href="/campgrounds/<%=campground._id%>" class="btn btn-primary">More Info</a>
+                       <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
                    </p>
                 </div>
             </div>
@@ -27,4 +27,4 @@
     </div>
 </div>
 
-<% include partials/footer %>
+<% include ../partials/footer %>
